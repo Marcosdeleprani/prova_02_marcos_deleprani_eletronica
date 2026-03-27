@@ -5,7 +5,7 @@ function reqS(){
         let resistores = parseFloat(prompt("digite o valor do resistor numero "+(contador + 1)+":"));
         resistores+=resistores;
     }
-    console.log("o valor final da Req em serie é: "+ resistores);
+    console.log("o valor final da Req em serie é: "+ resistores+" Ω");
 
 }
 
@@ -19,7 +19,7 @@ function reqP(){
        resultado += (1 / req[contador]);
     }
     resultado = 1 / resultado;
-    
-    console.log("o valor final da req em paralelo é: "+ resultado);
+
+    console.log("o valor final da req em paralelo é: "+ resultado+" Ω");
     
 }

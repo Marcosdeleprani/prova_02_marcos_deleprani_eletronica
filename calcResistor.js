@@ -65,9 +65,9 @@ function calcResistor(){
         toleranciaMin = faixaMulti - (faixaMulti * tolerancia[faixa4]);
         toleranciaMax = faixaMulti + (faixaMulti * tolerancia[faixa4]);
 
-        console.log("a resistencia é: "+ faixaMulti);
-        console.log("a tolerancia maxima é: "+ toleranciaMax);
-        console.log("a tolerancia minima é: "+ toleranciaMin);
+        console.log("a resistencia é: "+ faixaMulti + " Ω");
+        console.log("a tolerancia maxima é: "+ toleranciaMax + " Ω");
+        console.log("a tolerancia minima é: "+ toleranciaMin + " Ω");
     }
     if(faixas == 2){
         faixa1 = prompt("digite a cor(em letra maiuscula) da faixa 1: ");
@@ -82,9 +82,9 @@ function calcResistor(){
         toleranciaMin = faixaMulti - (faixaMulti * tolerancia[faixa5]);
         toleranciaMax = faixaMulti + (faixaMulti * tolerancia[faixa5]);
 
-        console.log("a resistencia é: "+ faixaMulti);
-        console.log("a tolerancia maxima é: "+ toleranciaMax);
-        console.log("a tolerancia minima é: "+ toleranciaMin);
+        console.log("a resistencia é: "+ faixaMulti + " Ω");
+        console.log("a tolerancia maxima é: "+ toleranciaMax + " Ω");
+        console.log("a tolerancia minima é: "+ toleranciaMin + " Ω");
     }
 
 }
