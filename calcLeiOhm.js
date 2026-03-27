@@ -1,9 +1,9 @@
 function ohm(){
-    let opcao = parseInt(`digite qual deseja calcular: 
+    let opcao = parseInt(prompt(`digite qual deseja calcular: 
     1-para resistencia(ohms - R)
     2-para corrente elétrica(ampères - I)
     3-para tensão(volts - U)
-    U = R * I`);
+    U = R * I`));
     let amperes = 0;
     let volts = 0;
     let ohms = 0;

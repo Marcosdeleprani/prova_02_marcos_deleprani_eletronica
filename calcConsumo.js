@@ -19,5 +19,5 @@ function calcConsumo(){
 
     console.log("nome: " + nome + "\n");
     console.log("consumo mensal em kWh: " + kWhmensal + "\n");
-    console.log("total gasto: " + valorMensal + "\n");
+    console.log("total gasto em reais: " + valorMensal + "\n");
 }
