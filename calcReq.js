@@ -1,11 +1,11 @@
 function reqS(){
     let qtd = parseInt(prompt("digite quantos resistores em serie terão: "));
-
+    let resultado = 0;
     for(let contador = 0; contador < qtd; contador++){
-        let resistores = parseFloat(prompt("digite o valor do resistor numero "+(contador + 1)+":"));
-        resistores+=resistores;
+        resistores = parseFloat(prompt("digite o valor do resistor numero "+(contador + 1)+":"));
+        resultado += resistores;
     }
-    console.log("o valor final da Req em serie é: "+ resistores+" Ω");
+    console.log("o valor final da Req em serie é: " + resultado + " Ω");
 
 }
 
