@@ -16,8 +16,10 @@ function reqP(){
     for(let contador = 0; contador < qtd; contador++){
         req[contador] = parseFloat(prompt("digite o valor do resistor numero " + (contador + 1)+":"));
 
-       resultado += req[contador] ** -1;
+       resultado += (1 / req[contador]);
     }
+    resultado = 1 / resultado;
+    
     console.log("o valor final da req em paralelo é: "+ resultado);
     
 }
