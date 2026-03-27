@@ -12,7 +12,7 @@ function reqS(){
 function reqP(){
     let qtd = parseInt(prompt("digite quantos resistores em paralelo terão: "));
     let resultado = 0;
-    let req = []; 
+    let req = [qtd]; 
     for(let contador = 0; contador < qtd; contador++){
         req[contador] = parseFloat(prompt("digite o valor do resistor numero " + (contador + 1)+":"));
 
