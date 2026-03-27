@@ -3,7 +3,7 @@ function multiSubMulti(){
         G: 10 ** 9,
         M: 10 ** 6,
         k: 10 ** 3,
-        base: 10 ** 0,
+        base: 1,
         mili: 10 ** -3,
         micro: 10 ** -6,
         nano: 10 ** -9, 
@@ -11,9 +11,9 @@ function multiSubMulti(){
 
     let unidade = prompt("digite a unidade que deseja utilizar\ncorrente elétrica -> A (ampère)\ntensão elétrica -> V(volt)\nresistência elétrica -> (ohm)\npotência elétrica -> W(watt): ");
 
-    let primeiroPre = prompt("digite qual prefixo para entrada\n(G) para giga\n(M) para mega\n(k) para quilo\n(b) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
+    let primeiroPre = prompt("digite qual prefixo para entrada\n(G) para giga\n(M) para mega\n(k) para quilo\n(base) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
 
-    let segundoPre = prompt("digite qual prefixo para conversão\n(G) para giga\n(M) para mega\n(k) para quilo\n(b) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
+    let segundoPre = prompt("digite qual prefixo para conversão\n(G) para giga\n(M) para mega\n(k) para quilo\n(base) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
 
     let quantidade1 = parseFloat(prompt("digite a quantidade que voce quer transformar: "));
 
