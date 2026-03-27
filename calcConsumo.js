@@ -18,6 +18,6 @@ function calcConsumo(){
     let valorMensal = valordia * 30;
 
     console.log("nome: " + nome + "\n");
-    console.log("consumo mensal: " + kWhmensal + "\n");
+    console.log("consumo mensal em kWh: " + kWhmensal + "\n");
     console.log("total gasto: " + valorMensal + "\n");
 }
