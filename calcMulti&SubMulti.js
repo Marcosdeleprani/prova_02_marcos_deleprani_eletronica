@@ -13,7 +13,7 @@ function multiSubMulti(){
 
     let primeiroPre = prompt("digite qual prefixo para entrada\n(G) para giga\n(M) para mega\n(k) para quilo\n(b) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
 
-    let segundoPre = prompt("digite qual prefixo para entrada\n(G) para giga\n(M) para mega\n(k) para quilo\n(b) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
+    let segundoPre = prompt("digite qual prefixo para conversão\n(G) para giga\n(M) para mega\n(k) para quilo\n(b) para sem prefixo\n(mili) para mili\n(micro) para micro\n(nano) para nano: ");
 
     let quantidade1 = parseFloat(prompt("digite a quantidade que voce quer transformar: "));
 
@@ -21,12 +21,12 @@ function multiSubMulti(){
     let resultadoF = valorBase / pre[segundoPre];
 
     if(segundoPre == "base"){
-        segundoPre == "";
+        segundoPre == " ";
     }
     if(primeiroPre == "base"){
-        primeiroPre == "";
+        primeiroPre == " ";
     }
 
-    console.log(quantidade1 , primeiroPre , unidade , "são: ", resultadoF , " " , segundoPre , unidade,"\n");
-    console.log(quantidade1 , primeiroPre , unidade , "são: ", resultadoF , " " , segundoPre , unidade,"\n")
+    console.log(quantidade1 , primeiroPre , unidade , "são: ", resultadoF , segundoPre , unidade,"\n");
+    
 }
