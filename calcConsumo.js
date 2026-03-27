@@ -10,7 +10,9 @@ function calcConsumo(){
     else if(medida == 2){
         potencia = potencia;
     }
-    else{console.log("erro na medida")}
+    else{
+        console.log("erro na medida");
+    }
 
     let kWh = potencia * tempo;
     let kWhmensal = kWh * 30;
