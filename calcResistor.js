@@ -37,7 +37,21 @@ function calcResistor(){
     let faixaSoma = 0;
     let faixaMulti = 0;
     let toleranciaMin = 0;  
-    let toleranciaMax = 0;  
+    let toleranciaMax = 0;
+    console.log(`CORES DAS FAIXAS
+    PRETO
+    MARROM
+    VERMELHO
+    LARANJA
+    AMARELO
+    VERDE
+    AZUL
+    ROXO
+    CINZA
+    BRANCO
+    DOURADO
+    PRATA
+    `)
     let faixas = parseInt(prompt("1-para 4 faixas\n2-para 5 faixas: "));
 
     if(faixas == 1){
@@ -51,6 +65,9 @@ function calcResistor(){
         toleranciaMin = faixaMulti - (faixaMulti * tolerancia[faixa4]);
         toleranciaMax = faixaMulti + (faixaMulti * tolerancia[faixa4]);
 
+        console.log("a resistencia é: "+ faixaMulti);
+        console.log("a tolerancia maxima é: "+ toleranciaMax);
+        console.log("a tolerancia minima é: "+ toleranciaMin);
     }
     if(faixas == 2){
         faixa1 = prompt("digite a cor(em letra maiuscula) da faixa 1: ");
@@ -65,6 +82,9 @@ function calcResistor(){
         toleranciaMin = faixaMulti - (faixaMulti * tolerancia[faixa5]);
         toleranciaMax = faixaMulti + (faixaMulti * tolerancia[faixa5]);
 
+        console.log("a resistencia é: "+ faixaMulti);
+        console.log("a tolerancia maxima é: "+ toleranciaMax);
+        console.log("a tolerancia minima é: "+ toleranciaMin);
     }
 
 }
