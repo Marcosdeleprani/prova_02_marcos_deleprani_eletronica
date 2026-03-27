@@ -20,6 +20,6 @@ function reqP(){
     }
     resultado = 1 / resultado;
 
-    console.log("o valor final da req em paralelo é: "+ resultado+" Ω");
+    console.log("o valor final da req em paralelo é: "+ resultado.toFixed(2)+" Ω");
     
 }
